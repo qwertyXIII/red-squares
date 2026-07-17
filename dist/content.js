@@ -11,12 +11,12 @@
   // ==================== RUNTIME SETTINGS (применённый пресет) ====================
   const settings = {
     squareCount: 30,
-    color: '#ffd900'
+    color: '#0059ff'
   };
-  const SQUARE_SIZE = 80;
-  const SPAWN_INTERVAL = 200;
-  const MIN_LIFETIME = 3000;
-  const MAX_LIFETIME = 7000;
+  const SQUARE_SIZE = 230;
+  const SPAWN_INTERVAL = 100;
+  const MIN_LIFETIME = 1000;
+  const MAX_LIFETIME = 15000;
 
   const hasConfigs = typeof window.extensionConfigs === 'function';
   const log = (m) => { if (typeof window.extensionLogs === 'function') window.extensionLogs(m); };
