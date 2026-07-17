@@ -13,7 +13,7 @@
     squareCount: 30,
     color: '#0059ff'
   };
-  const SQUARE_SIZE = 230;
+  const SQUARE_SIZE = 30;
   const SPAWN_INTERVAL = 100;
   const MIN_LIFETIME = 1000;
   const MAX_LIFETIME = 15000;
